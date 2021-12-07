@@ -1,0 +1,71 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+}
+body{
+    font-family: sans-serif;
+    background-color: #fffbdf;
+}
+.header{
+    width: 100%;
+    margin: 0 auto;
+
+}
+.header .nav{
+
+    background-color: hsl(240,100%,90%);
+    display: flex;
+    width: 100%;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    margin-bottom: 50px;
+    top: 0px;
+
+}
+
+
+
+ #publication-container .publications{
+    /*background-color: red;*/
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-bottom: 1px solid;
+    padding:5px 0px 50px 0px;
+
+}
+.search{
+    width: 310px;
+    height: 23px;
+}
+
+/*====== estilos del buscador ====*/
+#box-search{
+    display: none;
+    position: fixed;
+    top: 38px;
+    left: 60%;
+    width: 311px;
+    background-color: rgb(116, 116, 113);
+    transition: all 600ms;
+}
+
+/*=========wrap*/
+.wrap-container{
+    position: relative;
+
+}
+.indicator{
+    position: absolute;
+    bottom: 10%;
+    
+}
